@@ -11,7 +11,7 @@ pipeline{
       steps {
         script{
         echo " Is it okay ${params.IS_IT_OK}"
-        echo " The plan after marriage is ${params.IS_IT_OK}"
+        echo " The plan after marriage is ${params.PLAN_AFTER_MARRIAGE}"
         }
       }
     }
