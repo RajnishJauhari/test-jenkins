@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     parameters{
-        boolean(name:'IS_IT_OK', defaultValue:'false')
+        booleanParam(name:'IS_IT_OK', defaultValue:'false')
         choice(name:'PLAN_AFTER_MARRIAGE', choices:['HONEYMOON','PARTY', 'BREAK'])
     }
 
